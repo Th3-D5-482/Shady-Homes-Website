@@ -3,6 +3,7 @@ import Header from './Components/Header'
 import Choosing from './Components/Choosing'
 import Visualize from './Components/Visualize'
 import Featured from './Components/Featured'
+import Services from './Components/Services'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Choosing/>
       <Visualize/>
       <Featured/>
+      <Services/>
     </div>
   )
 }

@@ -40,11 +40,11 @@ const Visualize = () => {
         }
     }
   return (
-    <div className='w-auto h-150 flex mx-8'>
+    <div className='w-auto h-150 flex mx-8 mb-8'>
         <div className='w-1/2 h-125 pr-8'>
             <h2 className='text-2xl font-semibold mb-10'>Visualize your ideas with us</h2>
             <p className='max-w-160 mb-5 text-gray-400'>We are ready to help you build and also realize the room design that you dream of, with our experts and also the best category recommendations from us. </p>
-            <div className='mb-2 hover:border px-2 py-2 rounded'>
+            <div className='mb-2 hover:border px-2 py-2 rounded border-gray-400'>
                 <div className='flex justify-between mb-5'>
                     <p className='font-semibold'>Modern</p>
                     <button className='text-[#F79489] text-3xl' onClick = {() => {
@@ -57,7 +57,7 @@ const Visualize = () => {
                 </div>
                 {isModern && (<p className='max-w-160 text-gray-400'>Mordern design is a term in the design world that refers to a house with a clean design, simple color choices, the use of materials including metal, glass, and stell, and is usually accompained by clean lines. </p>)}
             </div>
-            <div className='mb-2 hover:border px-2 py-2 rounded'>
+            <div className='mb-2 hover:border px-2 py-2 rounded border-gray-400'>
                 <div className='flex justify-between mb-5'>
                     <p className='font-semibold'>Contemporary</p>
                     <button className='text-[#F79489] text-3xl' onClick = {() => {
@@ -70,7 +70,7 @@ const Visualize = () => {
                 </div>
                 {isContemporary && (<p className='max-w-160 text-gray-400'>Contemporary design is a term in the design world that refers to a house with a constantly evolving aesthetic, blending various styles while focusing on current trends, functionality, and harmony.</p>)}
             </div>
-            <div className='mb-2 hover:border px-2 py-2 rounded'>
+            <div className='mb-2 hover:border px-2 py-2 rounded border-gray-400'>
                 <div className='flex justify-between mb-5'>
                     <p className='font-semibold'>Minimalis</p>
                     <button className='text-[#F79489] text-3xl' onClick = {() => {
@@ -84,7 +84,7 @@ const Visualize = () => {
                 {isMinimalis && (<p className='max-w-160 text-gray-400'>Minimalist design is a term in the design world that refers to a house with an uncluttered layout, a neutral color palette, an emphasis on open spaces, and only essential furniture and decor.</p>
             )}
             </div>
-            <div className='mb-2 hover:border px-2 py-2 rounded'>
+            <div className='mb-2 hover:border px-2 py-2 rounded border-gray-400'>
                 <div className='flex justify-between mb-5'>
                     <p className='font-semibold'>Industrial</p>
                     <button className='text-[#F79489] text-3xl' onClick = {() => {

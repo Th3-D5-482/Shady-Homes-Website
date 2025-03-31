@@ -3,15 +3,10 @@ import choose1 from '../assets/choose1.png'
 import choose2 from '../assets/choose2.png'
 import choose3 from '../assets/choose3.png'
 import choose4 from '../assets/choose4.png'
-import {motion} from 'motion/react'
 
 const Choosing = () => {
   return (
-    <motion.div 
-    initial ={{opacity: 0, y: 200}}
-    whileInView ={{opacity: 1, y: 0 }}
-    transition ={{duration: 0.5}}
-    className='w-auto h-120 mb-8 overflow-hidden'>
+    <div className='w-auto h-120 mb-8 overflow-hidden'>
         <h2 className='text-2xl text-black font-semibold my-10 mx-15'>Why Choosing Us</h2>
         <div className='w-auto h-[280px] flex gap-5 mx-10'>
             <div className='w-[425px] h-[280px] px-5 rounded hover:border border-gray-200 shadow-xl'>
@@ -47,7 +42,7 @@ const Choosing = () => {
                 <a href="" className='text-[#F79489]'>more info</a>
             </div>
         </div>
-    </motion.div>
+    </div>
   )
 }
 

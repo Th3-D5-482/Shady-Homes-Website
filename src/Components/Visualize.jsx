@@ -47,7 +47,7 @@ const Visualize = () => {
             <div className='mb-2 hover:border px-2 py-2 rounded border-gray-400'>
                 <div className='flex justify-between mb-5'>
                     <p className='font-semibold'>Modern</p>
-                    <button className='text-[#F79489] text-3xl' onClick = {() => {
+                    <button className='text-[#F79489] text-3xl cursor-pointer' onClick = {() => {
                         Modern(true);
                         Contemporary(false);
                         Minimalis(false);
@@ -60,7 +60,7 @@ const Visualize = () => {
             <div className='mb-2 hover:border px-2 py-2 rounded border-gray-400'>
                 <div className='flex justify-between mb-5'>
                     <p className='font-semibold'>Contemporary</p>
-                    <button className='text-[#F79489] text-3xl' onClick = {() => {
+                    <button className='text-[#F79489] text-3xl cursor-pointer' onClick = {() => {
                         Modern(false);
                         Contemporary(true);
                         Minimalis(false);
@@ -73,7 +73,7 @@ const Visualize = () => {
             <div className='mb-2 hover:border px-2 py-2 rounded border-gray-400'>
                 <div className='flex justify-between mb-5'>
                     <p className='font-semibold'>Minimalis</p>
-                    <button className='text-[#F79489] text-3xl' onClick = {() => {
+                    <button className='text-[#F79489] text-3xl cursor-pointer' onClick = {() => {
                         Modern(false);
                         Contemporary(false);
                         Minimalis(true);
@@ -87,7 +87,7 @@ const Visualize = () => {
             <div className='mb-2 hover:border px-2 py-2 rounded border-gray-400'>
                 <div className='flex justify-between mb-5'>
                     <p className='font-semibold'>Industrial</p>
-                    <button className='text-[#F79489] text-3xl' onClick = {() => {
+                    <button className='text-[#F79489] text-3xl cursor-pointer' onClick = {() => {
                         Modern(false);
                         Contemporary(false);
                         Minimalis(false);

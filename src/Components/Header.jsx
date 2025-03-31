@@ -17,7 +17,7 @@ const Header = () => {
             <div className="relative w-1/5 h-15 border border-white rounded-full bg-transparent text-white flex items-center px-4 mx-150">
               <input type="text" className="bg-transparent flex-grow outline-none text-white placeholder-white" placeholder="Search Furniture"/>
               <div className="bg-white w-12 h-12 rounded-full flex items-center justify-center ml-3">
-                <img src={Search} className="p-3" alt="" />
+                <img src={Search} className="p-3 cursor-pointer" alt="" />
               </div>
         </div>
      </motion.div>

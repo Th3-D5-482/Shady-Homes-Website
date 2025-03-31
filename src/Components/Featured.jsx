@@ -28,7 +28,7 @@ const Featured = () => {
         <h2 className='font-semibold text-2xl text-center mb-10'>Featured Product</h2>
         <div className='h-110 flex justify-between gap-5'>
             {products.map((product,index) => (
-                <div className='w-1/4 h-110 hover:border border-gray-400 rounded' key ={index}>
+                <div className='w-1/4 h-110 hover:border border-gray-400 rounded cursor-pointer' key ={index}>
                     <div className='h-70 bg-center bg-no-repeat bg-contain bg-[#f6f6f6] rounded' style={{backgroundImage: `url(${product.image})`}}/>
                     <div className='h-30 px-8 py-3'>
                         <p className='mb-1 font-semibold'>{product.name}</p>

@@ -39,7 +39,7 @@ export const feedbacks = [
         "data": "I had fantastic experience at shady rhymes with pax planner, shady ryhmes was so helpful and friendly and went above and beyond to help me configure my perfect walk in wardobe room.",
         "photo": "/face1.png",
         "name": "John Doe",
-        "occupation": "Project Manager of Cupalo"
+        "occupation": "Project Manager"
     },
     {
         id: 1,
@@ -55,7 +55,7 @@ export const feedbacks = [
         "data": "I loved working with Darla shady rhymes for about 2 years and highly recommend anyone looking for an interior desinger agency who brings creativity but designs something that fits you and your style.",
         "photo": "/face3.png",
         "name": "Denis Rara",
-        "occupation": "Architect at BPPLU"
+        "occupation": "Architect"
     },
     
 ]

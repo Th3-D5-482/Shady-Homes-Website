@@ -4,7 +4,7 @@ export const products = [
         "name": "Oakwood Haven",
         "category": "Sofa",
         "ratings": 4,
-        "price": 850,
+        "price": "850",
         "image": "/pro1.png"
     },
     {
@@ -12,7 +12,7 @@ export const products = [
         "name": "Midnight Maple",
         "category": "Coffee Table",
         "ratings": 5,
-        "price": 230,
+        "price": "230",
         "image": "/pro2.png"
     },
     {
@@ -20,7 +20,7 @@ export const products = [
         "name": "Aurora Luxe",
         "category": "Bed",
         "ratings": 3,
-        "price": 1200,
+        "price": "1,200",
         "image": "/pro3.png"
     },
     {
@@ -28,7 +28,7 @@ export const products = [
         "name": "Nimbus Glide",
         "category": "Office Chair",
         "ratings": 4,
-        "price": 320,
+        "price": "320",
         "image": "/pro4.png"
     },
 ];

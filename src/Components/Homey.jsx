@@ -1,6 +1,7 @@
 import React from 'react'
 import homey from '../assets/homey.png'
 import right_arrow from '../assets/right_arrow.png'
+import { toast} from 'react-toastify';
 
 const Homey = () => {
     const onSubmit = async (event) => {
@@ -22,7 +23,7 @@ const Homey = () => {
         }).then((res) => res.json());
     
         if (res.success) {
-          console.log("Success", res);
+            toast.success("Successful");
         }
       };    
   return (

@@ -4,6 +4,7 @@ import Choosing from './Components/Choosing'
 import Visualize from './Components/Visualize'
 import Featured from './Components/Featured'
 import Services from './Components/Services'
+import Homey from './Components/Homey'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Visualize/>
       <Featured/>
       <Services/>
+      <Homey/>
     </div>
   )
 }

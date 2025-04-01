@@ -7,7 +7,7 @@ const Services = () => {
         <h2 className='text-2xl text-center font-semibold py-20'>What they say about our services</h2>
         <div className='h-120 flex justify-between gap-10'>
             {feedbacks.map((feedback,index) => (
-                <div className='w-1/3 pt-3 h-70 border-gray-400 hover:border px-8 rounded'>
+                <div className='w-1/3 pt-3 h-70 border-gray-400 hover:border px-8 rounded' key ={index}>
                     <h3 className='text-xl font-semibold mb-8'>{feedback.title}</h3>
                     <p className='text-gray-400 max-w-100 mb-8'>{feedback.data}</p>
                     <div className='w-1/2 flex h-15 gap-3'>

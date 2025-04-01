@@ -36,7 +36,7 @@ export const feedbacks = [
     {
         id: 0,
         "title": "Best Planning Service",
-        "data": "I had fantastic experience at shady rhymes with pax planner, shady ryhmes was so helpful and friendly and went above and beyond to help me configure my perfect walk in wardobe room.",
+        "data": "I had fantastic experience at shady homes with pax planner, shady homes was so helpful and friendly and went above and beyond to help me configure my perfect walk in wardobe room.",
         "photo": "/face1.png",
         "name": "John Doe",
         "occupation": "Project Manager"
@@ -52,7 +52,7 @@ export const feedbacks = [
     {
         id: 2,
         "title": "Solution Innovative",
-        "data": "I loved working with Darla shady rhymes for about 2 years and highly recommend anyone looking for an interior desinger agency who brings creativity but designs something that fits you and your style.",
+        "data": "I loved working with Darla shady homes for about 2 years and highly recommend anyone looking for an interior desinger agency who brings creativity but designs something that fits you and your style.",
         "photo": "/face3.png",
         "name": "Denis Rara",
         "occupation": "Architect"

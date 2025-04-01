@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className='w-auto h-15 mx-20 my-4 justify-between items-center flex text-white'>
         <div className='flex items-center my-1'>
             <img src={app_logo} alt="" />
-            <a href="#Header"><h3 className='max-w-16 text-white font-semibold ml-2'>Shady Rhymes</h3></a>
+            <a href="#Header"><h3 className='max-w-16 text-white font-semibold ml-2'>Shady Homes</h3></a>
         </div>
         <div className='hidden md:block'>
             <ul className='flex gap-15'>

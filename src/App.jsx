@@ -5,6 +5,7 @@ import Visualize from './Components/Visualize'
 import Featured from './Components/Featured'
 import Services from './Components/Services'
 import Homey from './Components/Homey'
+import Footer from './Components/Footer'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Featured/>
       <Services/>
       <Homey/>
+      <Footer/>
     </div>
   )
 }

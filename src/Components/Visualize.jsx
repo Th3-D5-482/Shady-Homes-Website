@@ -40,8 +40,11 @@ const Visualize = () => {
         }
     }
   return (
-    <div className='w-auto h-150 flex mx-8 mb-8 overflow-hidden'>
-        <div className='w-1/2 h-125 pr-8'>
+    <div className='w-auto h-250 flex-row mx-8 mb-8 overflow-hidden md:flex md:h-150'>
+        <div className='w-auto h-auto border mb-10 md:hidden md:h-125'>
+            <img src={visualize} alt="" />
+        </div>
+        <div className='w-auto h-125 pr-8 md:w-1/2'>
             <h2 className='text-2xl font-semibold mb-10'>Visualize your ideas with us</h2>
             <p className='max-w-160 mb-5 text-gray-400'>We are ready to help you build and also realize the room design that you dream of, with our experts and also the best category recommendations from us. </p>
             <div className='mb-2 hover:border px-2 py-2 rounded border-gray-400'>
@@ -100,7 +103,7 @@ const Visualize = () => {
             </div>
             <a href="" className='text-[#F79489] mx-2'>See more catagory</a>
         </div>
-        <div className='w-1/2 h-125'>
+        <div className='w-1/2 h-125 hidden md:block'>
             <img src={visualize} alt="" />
         </div>
     </div>

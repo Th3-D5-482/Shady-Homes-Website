@@ -14,8 +14,8 @@ const App = () => {
       <ToastContainer/>
       <Header/>
       <Choosing/>
-      { /* <Visualize/>
-      <Featured/>
+      <Visualize/>
+      { /* <Featured/>
       <Services/>
       <Homey/>
       <Footer/> */}

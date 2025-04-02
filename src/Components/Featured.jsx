@@ -24,12 +24,12 @@ const StarRating = ({ rating }) => {
 
 const Featured = () => {
     return (
-    <div className='w-auto h-140 mx-8 mb-8 overflow-hidden'>
+    <div className='w-auto h-220 mx-8 mb-8 overflow-hidden md:h-140'>
         <h2 className='font-semibold text-2xl text-center mb-10'>Featured Product</h2>
-        <div className='h-110 flex justify-between gap-5'>
+        <div className='h-200 grid grid-rows-2 grid-cols-2 justify-between gap-5 md:flex md:h-110'>
             {products.map((product,index) => (
-                <div className='w-1/4 h-110 hover:border border-gray-400 rounded cursor-pointer' key ={index}>
-                    <div className='h-70 bg-center bg-no-repeat bg-contain bg-[#f6f6f6] rounded' style={{backgroundImage: `url(${product.image})`}}/>
+                <div className='w-auto h-110 hover:border border-gray-400 rounded cursor-pointer md:w-1/4' key ={index}>
+                    <div className='h-50 bg-center bg-no-repeat bg-contain bg-[#f6f6f6] rounded md:h-70' style={{backgroundImage: `url(${product.image})`}}/>
                     <div className='h-30 px-8 py-3'>
                         <p className='mb-1 font-semibold'>{product.name}</p>
                         <p className='text-gray-400 text-sm mb-1'>{product.category}</p>

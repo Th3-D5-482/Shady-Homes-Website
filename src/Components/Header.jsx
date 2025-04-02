@@ -5,7 +5,7 @@ import {motion} from 'motion/react'
 
 const Header = () => {
   return (
-    <div className='w-auto min-h-130 overflow-hidden bg-center bg-cover bg-[url(/background.png)] md:min-h-screen' style = {{filter: 'brightness(60%)'}} id ="Header">
+    <div className='w-auto min-h-130 overflow-hidden mb-8 bg-center bg-cover bg-[url(/background.png)] md:min-h-screen' style = {{filter: 'brightness(60%)'}} id ="Header">
         <Navbar/>
         <motion.div
         initial ={{opacity: 0, y: 200}}

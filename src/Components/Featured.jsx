@@ -24,7 +24,7 @@ const StarRating = ({ rating }) => {
 
 const Featured = () => {
     return (
-    <div className='w-auto h-140 mx-8 mb-8'>
+    <div className='w-auto h-140 mx-8 mb-8 overflow-hidden'>
         <h2 className='font-semibold text-2xl text-center mb-10'>Featured Product</h2>
         <div className='h-110 flex justify-between gap-5'>
             {products.map((product,index) => (

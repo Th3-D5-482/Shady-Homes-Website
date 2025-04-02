@@ -3,7 +3,7 @@ import { feedbacks } from '../Database'
 
 const Services = () => {
   return (
-    <div className='w-auto h-150 mb-20 px-8 bg-[#FAF5F2]'>
+    <div className='w-auto h-150 mb-20 px-8 bg-[#FAF5F2] overflow-hidden'>
         <h2 className='text-2xl text-center font-semibold py-20'>What they say about our services</h2>
         <div className='h-120 flex justify-between gap-10'>
             {feedbacks.map((feedback,index) => (

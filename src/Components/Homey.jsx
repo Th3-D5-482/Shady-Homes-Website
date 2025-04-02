@@ -27,7 +27,7 @@ const Homey = () => {
         }
       };    
   return (
-    <div className='w-auto mx-8 h-130 mb-20 flex'>
+    <div className='w-auto mx-8 h-130 mb-20 flex overflow-hidden'>
         <div className='w-1/2'>
             <img src={homey} alt="" />
         </div>

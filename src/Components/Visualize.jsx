@@ -40,7 +40,7 @@ const Visualize = () => {
         }
     }
   return (
-    <div className='w-auto h-150 flex mx-8 mb-8'>
+    <div className='w-auto h-150 flex mx-8 mb-8 overflow-hidden'>
         <div className='w-1/2 h-125 pr-8'>
             <h2 className='text-2xl font-semibold mb-10'>Visualize your ideas with us</h2>
             <p className='max-w-160 mb-5 text-gray-400'>We are ready to help you build and also realize the room design that you dream of, with our experts and also the best category recommendations from us. </p>

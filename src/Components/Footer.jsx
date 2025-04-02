@@ -3,7 +3,7 @@ import app_logo from '../assets/app_logo.png'
 
 const Footer = () => {
   return (
-    <div className='w-auto h-100 px-8 py-20 bg-black justify-between'>
+    <div className='w-auto h-100 px-8 py-20 bg-black justify-between overflow-hidden'>
         <div className='flex'>
             <div className='w-1/5 flex'>
                 <img src ={app_logo} className='h-10 w-10 mt-3' alt="" />

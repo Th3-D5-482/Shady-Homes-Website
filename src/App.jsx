@@ -17,8 +17,8 @@ const App = () => {
       <Visualize/>
       <Featured/>
       <Services/>
-      { /* <Homey/>
-      <Footer/> */}
+      <Homey/>
+      {/*<Footer/>*/}
     </div>
   )
 }

@@ -27,11 +27,11 @@ const Homey = () => {
         }
       };    
   return (
-    <div className='w-auto mx-8 h-130 mb-20 flex overflow-hidden'>
-        <div className='w-1/2'>
+    <div className='w-auto mx-8 h-200 mb-20 flex-row overflow-hidden md:flex md:130'>
+        <div className='md:w-1/2'>
             <img src={homey} alt="" />
         </div>
-        <div className='w-1/2 px-8 py-8'>
+        <div className='w-auto px-8 py-8 md:w-1/2'>
             <h2 className='text-2xl font-semibold mb-8'>Make your room feel homey</h2>
             <p className='text-gray-400 mb-8'>We help people not only to make the room at home better, but we help people to feel a more homey and comfortable room, you don't have to worry about the result because of these interiors are made by people who are professionals in their fields with an elegant and lucurious style and with premium quality materials.</p>
             <p className='text-gray-400 mb-8'>Contact us, if your are interested in working with us.</p>

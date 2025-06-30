@@ -17,16 +17,16 @@
 
 ## 🚀 Features
 
-### Hero Banner  
+### 🖼️ Hero Banner  
 - Displays high-quality promotional banners with impactful messaging and design
 
-### Categories Section  
+### 📂 Categories Section  
 - Organized furniture types to help users explore collections efficiently (e.g., sofas, chairs, tables)
 
-### Client Feedback  
+### 💬 Client Feedback  
 - A section dedicated to customer reviews and testimonials, showcasing satisfaction and trust
 
-### Informational Highlights  
+### 📊 Informational Highlights  
 - Sections that communicate product quality, delivery efficiency, or service guarantees through icons and brief statements
 
 ---

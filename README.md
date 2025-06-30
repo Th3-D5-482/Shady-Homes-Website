@@ -1,6 +1,6 @@
 # 🛋️ Shady Homes
 
-### 👤 Created by: Darren Immanuel Fernandes
+### 👤 Created by: Th3_D5_482
 
 ---
 
@@ -10,8 +10,8 @@
 ---
 
 ## 🧰 Technologies Used  
-- ⚛️ **React** – Powers dynamic and component-based UI rendering  
-- 🎨 **Tailwind CSS** – Provides utility-first styling for consistent and responsive design
+- **React** – Powers dynamic and component-based UI rendering  
+- **Tailwind CSS** – Provides utility-first styling for consistent and responsive design
 
 ---
 

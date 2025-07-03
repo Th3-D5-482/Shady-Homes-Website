@@ -1,4 +1,4 @@
-# 🛋️ Shady Homes
+# 🛋️ Shady Homes (Project: TreeHog)
 
 ### 👤 Created by: Th3_D5_482
 

@@ -1,4 +1,4 @@
-# 🛋️ Shady Homes Websit
+# 🛋️ Shady Homes Website
 
 ### 🔐 Code name: Project Axion
 

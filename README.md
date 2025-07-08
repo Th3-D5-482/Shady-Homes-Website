@@ -33,6 +33,11 @@
 
 ---
 
+## 🙏 Acknowledgment  
+Special thanks to [Radithya Bintang](https://www.figma.com/@radithya), whose design ingenuity and creativity inspired Shady Homes look and feel.
+
+---
+
 ## 🎯 Conclusion  
 **Shady Homes** combines clean design with dynamic functionality to create an engaging online furniture experience. Built with React and styled using Tailwind CSS, the site focuses on clarity, responsiveness, and modern presentation—making it both elegant and efficient for today’s users.
 
